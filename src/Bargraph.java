@@ -25,17 +25,33 @@ public class Bargraph {
         p.down();
         p.move(30-150, n1-125);
         p.up();
+        p.move(20-150, 200-125);
+        p.down();
+        p.drawString(""+n1);
+        p.up();
         p.move(100-150, 0-125);
         p.down();
         p.move(100-150, n2-125);
+        p.up();
+        p.move(90-150, 200-125);
+        p.down();
+        p.drawString(""+n2);
         p.up();
         p.move(170-150, 0-125);
         p.down();
         p.move(170-150, n3-125);
         p.up();
+        p.move(160-150, 200-125);
+        p.down();
+        p.drawString(""+n3);
+        p.up();
         p.move(240-150, 0-125);
         p.down();
         p.move(240-150, n4-125);
+        p.up();
+        p.move(230-150, 200-125);
+        p.down();
+        p.drawString(""+n4);
         
     }
     

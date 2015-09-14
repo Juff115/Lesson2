@@ -5,9 +5,7 @@ public class Bargraph {
    
     public static void main(String[] args) {
         Console c = new Console();
-        SketchPadWindow s = new SketchPadWindow(300,250);
-        //make pen
-        Pen p = new RainbowPen(s);
+       
         int n1, n2, n3, n4;
         //get numbers
         c.print("Enter first number: ");
@@ -18,6 +16,9 @@ public class Bargraph {
         n3 = c.readInt();
         c.print("Enter fourth number: ");
         n4 = c.readInt();
+         SketchPadWindow s = new SketchPadWindow(300,250);
+        //make pen
+        Pen p = new RainbowPen(s);
         p.setWidth(50);
         p.up();
         p.move(30-150, 0-125);
